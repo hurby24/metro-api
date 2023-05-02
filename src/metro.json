@@ -1,0 +1,14 @@
+[
+  {
+    "id": 0,
+    "station": "Hezi Aslanov",
+    "howLong": 3,
+    "line": "female"
+  },
+  {
+    "id": 1,
+    "station": "Ehmedli",
+    "howLong": 5,
+    "line": "male"
+  }
+]
