@@ -1,7 +1,7 @@
 {
   "lines": [
     {
-      "name": "Red",
+      "name": "red",
       "color": "#FF0000",
       "stations": [
         {
@@ -62,7 +62,8 @@
           "name": "28 May",
           "code": "r9",
           "latitude": 40.37998,
-          "longitude": 49.84853
+          "longitude": 49.84853,
+          "transfer": true
         },
         {
           "name": "Sahil",
@@ -79,7 +80,7 @@
       ]
     },
     {
-      "name": "Green",
+      "name": "green",
       "color": "#00FF00",
       "stations": [
         {
@@ -140,7 +141,8 @@
           "name": "28 May",
           "code": "g9",
           "latitude": 40.37998,
-          "longitude": 49.84853
+          "longitude": 49.84853,
+          "transfer": true
         },
         {
           "name": "Nizami",
@@ -170,7 +172,8 @@
           "name": "Memar Əcəmi",
           "code": "g14",
           "latitude": 40.41125,
-          "longitude": 49.81421
+          "longitude": 49.81421,
+          "transfer": true
         },
         {
           "name": "Nəsimi",
@@ -189,6 +192,44 @@
           "code": "g17",
           "latitude": 40.42549,
           "longitude": 49.86192
+        }
+      ]
+    },
+    {
+      "name": "purple",
+      "color": "#800080",
+      "stations": [
+        {
+          "name": "Memar Əcəmi",
+          "code": "p0",
+          "latitude": 40.41125,
+          "longitude": 49.81421,
+          "transfer": true
+        },
+        {
+          "name": "Avtovağzal",
+          "code": "p1",
+          "latitude": 40.42169,
+          "longitude": 49.79504
+        }
+      ]
+    },
+    {
+      "name": "yellow",
+      "color": "#FFFF00",
+      "stations": [
+        {
+          "name": "Cəfər Cabbarlı",
+          "code": "y0",
+          "latitude": 40.37998,
+          "longitude": 49.84853,
+          "transfer": true
+        },
+        {
+          "name": "Xətai",
+          "code": "y1",
+          "latitude": 40.38327,
+          "longitude": 49.87195
         }
       ]
     }
