@@ -1,38 +1,95 @@
 # metro-api
+
 A free REST API for Metro(AZ)
 
 Built with [Cloudflare Workers](https://workers.cloudflare.com/).
 
 ## Usage
 
-### `GET` [https://domain.com/metro](https://api.kanye.rest)
-This will get all the stations
+### `GET` [https://metro-az.hurby.workers.dev/metro](https://metro-az.hurby.workers.dev/metro)
+
+This will get all the metro lines and stations
+
 ```json
 [
   {
-    "id": 0,
-    "station": "Hezi Aslanov",
-    "howLong": 3,
-    "line": "green"
-  },
-  {
-    "id": 1,
-    "station": "Ehmedli",
-    "howLong": 5,
-    "line": "male"
+    "lines": [
+      {
+        "name": "purple",
+        "color": "#800080",
+        "stations": [
+          {
+            "name": "Memar Əcəmi",
+            "code": "p0",
+            "latitude": 40.41125,
+            "longitude": 49.81421,
+            "transfer": true
+          },
+          {
+            "name": "Avtovağzal",
+            "code": "p1",
+            "latitude": 40.42169,
+            "longitude": 49.79504
+          }
+        ]
+      },
+      {
+        "name": "yellow",
+        "color": "#FFFF00",
+        "stations": [
+          {
+            "name": "Cəfər Cabbarlı",
+            "code": "y0",
+            "latitude": 40.37998,
+            "longitude": 49.84853,
+            "transfer": true
+          },
+          {
+            "name": "Xətai",
+            "code": "y1",
+            "latitude": 40.38327,
+            "longitude": 49.87195
+          }
+        ]
+      }
+    ]
   }
 ]
 ```
 
-### `GET` [https://domain.com/metro/[id]](https://api.kanye.rest)
-This will get Metro by a specific ID.
+### `GET` [https://metro-az.hurby.workers.dev/metro/[line]](https://metro-az.hurby.workers.dev/metro/purple)
+
+This will get stations that in specific metro line.
+
+```json
+[
+  {
+    "name": "Memar Əcəmi",
+    "code": "p0",
+    "latitude": 40.41125,
+    "longitude": 49.81421,
+    "transfer": true
+  },
+  {
+    "name": "Avtovağzal",
+    "code": "p1",
+    "latitude": 40.42169,
+    "longitude": 49.79504
+  }
+]
+```
+
+### `GET` [https://metro-az.hurby.workers.dev/metro/[line]/[code]](https://metro-az.hurby.workers.dev/metro/red/r0)
+
+This will get station by code that in specific metro line.
+
 ```json
 {
-  "id": 0,
-  "station": "Hezi Aslanov",
-  "howLong": 3,
-  "line": "green"
- }
+  "name": "Həzi Aslanov",
+  "code": "r0",
+  "latitude": 40.37314,
+  "longitude": 49.9534
+}
 ```
 
 ## Development

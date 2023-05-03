@@ -12,9 +12,12 @@ export default {
       const url = new URL(request.url);
 
       if (url.pathname === "/") {
-        return new Response("This is a simple API to get metros by ID.", {
-          headers: { ...headers, "content-type": "text/plain" },
-        });
+        return new Response(
+          "This is a simple API to get metro stations by line and ID.",
+          {
+            headers: { ...headers, "content-type": "text/plain" },
+          }
+        );
       }
 
       if (url.pathname === "/metro") {
