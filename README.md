@@ -2,11 +2,11 @@
 
 A free REST API for Metro(AZ)
 
-Built with [Cloudflare Workers](https://workers.cloudflare.com/){:target="_blank"}.
+Built with [Cloudflare Workers](https://workers.cloudflare.com/)
 
 ## Usage
 
-### `GET` [https://metro-az.hurby.workers.dev/metro](https://metro-az.hurby.workers.dev/metro){:target="_blank"}
+### `GET` [https://metro-az.hurby.workers.dev/metro](https://metro-az.hurby.workers.dev/metro)
 
 This will get all the metro lines and stations
 
@@ -57,7 +57,7 @@ This will get all the metro lines and stations
 ]
 ```
 
-### `GET` [https://metro-az.hurby.workers.dev/metro/[line]](https://metro-az.hurby.workers.dev/metro/purple){:target="_blank"}
+### `GET` [https://metro-az.hurby.workers.dev/metro/[line]](https://metro-az.hurby.workers.dev/metro/purple)
 
 This will get stations that in specific metro line.
 
@@ -79,7 +79,7 @@ This will get stations that in specific metro line.
 ]
 ```
 
-### `GET` [https://metro-az.hurby.workers.dev/metro/[line]/[code]](https://metro-az.hurby.workers.dev/metro/red/r0){:target="_blank"}
+### `GET` [https://metro-az.hurby.workers.dev/metro/[line]/[code]](https://metro-az.hurby.workers.dev/metro/red/r0)
 
 This will get station by code that in specific metro line.
 
@@ -94,7 +94,7 @@ This will get station by code that in specific metro line.
 
 ## Development
 
-Install [Wrangler](https://developers.cloudflare.com/workers/wrangler/get-started/#installation){:target="_blank"}
+Install [Wrangler](https://developers.cloudflare.com/workers/wrangler/get-started/#installation)
 
 ```shell
 npx wrangler dev
