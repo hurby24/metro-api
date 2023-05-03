@@ -1,14 +1,196 @@
-[
-  {
-    "id": 0,
-    "station": "Hezi Aslanov",
-    "howLong": 3,
-    "line": "female"
-  },
-  {
-    "id": 1,
-    "station": "Ehmedli",
-    "howLong": 5,
-    "line": "male"
-  }
-]
+{
+  "lines": [
+    {
+      "name": "Red",
+      "color": "#FF0000",
+      "stations": [
+        {
+          "name": "Həzi Aslanov",
+          "code": "r0",
+          "latitude": 40.37314,
+          "longitude": 49.9534
+        },
+        {
+          "name": "Əhmədli",
+          "code": "r1",
+          "latitude": 40.38535,
+          "longitude": 49.95391
+        },
+        {
+          "name": "Xalqlar Dostluğu",
+          "code": "r2",
+          "latitude": 40.39703,
+          "longitude": 49.95241
+        },
+        {
+          "name": "Neftçilər",
+          "code": "r3",
+          "latitude": 40.41019,
+          "longitude": 49.94329
+        },
+        {
+          "name": "Qara Qarayev",
+          "code": "r4",
+          "latitude": 40.41798,
+          "longitude": 49.93216
+        },
+        {
+          "name": "Koroglu",
+          "code": "r5",
+          "latitude": 40.42174,
+          "longitude": 49.9169
+        },
+        {
+          "name": "Ulduz",
+          "code": "r6",
+          "latitude": 40.41499,
+          "longitude": 49.89146
+        },
+        {
+          "name": "Nəriman Nərimanov",
+          "code": "r7",
+          "latitude": 40.40299,
+          "longitude": 49.87063
+        },
+        {
+          "name": "Gənclik",
+          "code": "r8",
+          "latitude": 40.40046,
+          "longitude": 49.852
+        },
+        {
+          "name": "28 May",
+          "code": "r9",
+          "latitude": 40.37998,
+          "longitude": 49.84853
+        },
+        {
+          "name": "Sahil",
+          "code": "r10",
+          "latitude": 40.37107,
+          "longitude": 49.84439
+        },
+        {
+          "name": "İçərişəhər",
+          "code": "r11",
+          "latitude": 40.36596,
+          "longitude": 40.36596
+        }
+      ]
+    },
+    {
+      "name": "Green",
+      "color": "#00FF00",
+      "stations": [
+        {
+          "name": "Həzi Aslanov",
+          "code": "g0",
+          "latitude": 40.37314,
+          "longitude": 49.9534
+        },
+        {
+          "name": "Əhmədli",
+          "code": "g1",
+          "latitude": 40.38535,
+          "longitude": 49.95391
+        },
+        {
+          "name": "Xalqlar Dostluğu",
+          "code": "g2",
+          "latitude": 40.39703,
+          "longitude": 49.95241
+        },
+        {
+          "name": "Neftçilər",
+          "code": "g3",
+          "latitude": 40.41019,
+          "longitude": 49.94329
+        },
+        {
+          "name": "Qara Qarayev",
+          "code": "g4",
+          "latitude": 40.41798,
+          "longitude": 49.93216
+        },
+        {
+          "name": "Koroglu",
+          "code": "g5",
+          "latitude": 40.42174,
+          "longitude": 49.9169
+        },
+        {
+          "name": "Ulduz",
+          "code": "g6",
+          "latitude": 40.41499,
+          "longitude": 49.89146
+        },
+        {
+          "name": "Nəriman Nərimanov",
+          "code": "g7",
+          "latitude": 40.40299,
+          "longitude": 49.87063
+        },
+        {
+          "name": "Gənclik",
+          "code": "g8",
+          "latitude": 40.40046,
+          "longitude": 49.852
+        },
+        {
+          "name": "28 May",
+          "code": "g9",
+          "latitude": 40.37998,
+          "longitude": 49.84853
+        },
+        {
+          "name": "Nizami",
+          "code": "g10",
+          "latitude": 40.37989,
+          "longitude": 49.83027
+        },
+        {
+          "name": "İnşaatçılar",
+          "code": "g11",
+          "latitude": 40.39159,
+          "longitude": 49.80286
+        },
+        {
+          "name": "Elmlər Akademiyası",
+          "code": "g12",
+          "latitude": 40.37511,
+          "longitude": 49.81584
+        },
+        {
+          "name": "20 Yanvar",
+          "code": "g13",
+          "latitude": 40.40467,
+          "longitude": 49.80629
+        },
+        {
+          "name": "Memar Əcəmi",
+          "code": "g14",
+          "latitude": 40.41125,
+          "longitude": 49.81421
+        },
+        {
+          "name": "Nəsimi",
+          "code": "g15",
+          "latitude": 40.4246,
+          "longitude": 49.82519
+        },
+        {
+          "name": "Azadlıq prospekti",
+          "code": "g16",
+          "latitude": 40.42538,
+          "longitude": 49.84186
+        },
+        {
+          "name": "Dərnəgül",
+          "code": "g17",
+          "latitude": 40.42549,
+          "longitude": 49.86192
+        }
+      ]
+    }
+  ]
+}

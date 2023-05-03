@@ -15,11 +15,11 @@ export default {
           return new Response("This is a simple API to get metros by ID.", {
             headers: { ...headers, "content-type": "text/plain" },
           });
-        case "/id":
-          return new Response("Please provide an ID parameter.", {
-            headers: { ...headers, "content-type": "text/plain" },
+        case "/metro":
+          return new Response(JSON.stringify(metros), {
+            headers: { ...headers, "content-type": "application/json" },
           });
-        case `/id/${url.pathname.split("/")[2]}`:
+        case `/metro/${url.pathname.split("/")[2]}`:
           const id = parseInt(url.pathname.split("/")[2]);
           const metro = metros.find((metro) => metro.id === id);
           if (metro) {
